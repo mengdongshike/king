@@ -1,0 +1,25 @@
+{
+    "name": "kingphp/framework",
+    "description": "KingPHP Framework",
+    "type": "framework",
+    "license": "Apache-2.0",
+    "keywords": [
+        "Framework",
+        "KingPHP"
+    ],
+    "authors": [
+        {
+            "name": "WangChengGang",
+            "email": "188895970@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "king\\": "src/king/"
+        }
+    }
+}
